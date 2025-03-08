@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="card-title text-center mb-3">{{ e($task['title']) }}</h1>
-                {{-- استخدم e() لمنع هجمات XSS عند عرض البيانات --}}
+                {{-- استخدم e() لمنع هجمات XSS عند الامان عرض البيانات --}}
             </div>
         </div>
         <div class="row mt-4">
